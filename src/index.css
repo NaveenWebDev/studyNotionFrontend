@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+video{
+    box-shadow: 20px 20px 1px white;
+}
+.myimgshadow{
+    box-shadow: -20px -20px 1px white;
+}
+.myshadow{
+    box-shadow: inset -2px -2px silver;
+}
+.bg-image-frame{
+    background: url(./assets/Images/bghome.svg);
+    height: 250px;
+}
