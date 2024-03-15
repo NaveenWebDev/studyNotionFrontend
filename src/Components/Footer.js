@@ -16,8 +16,8 @@ const Footer = () => {
   return (
     <>
         <div className="max-w-[1200px] w-[90%] m-auto">
-            <div className="text-richblack-400 flex justify-between py-10">
-                <div className="p-5 w-[50%] flex justify-between border-r-2 border-richblack-600 gap-5">
+            <div className="text-richblack-400 flex justify-between flex-col md:flex-row  py-10">
+                <div className="p-5 w-full md:w-[50%] flex justify-between md:border-r-2 border-richblack-600 gap-5">
                     <div className='grow'>
                         <img src={studyLogo} alt="logo"  />
                         <p className='text-richblack-100 mt-3'>Company</p>
@@ -64,7 +64,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-5 w-[50%] flex justify-between gap-5">
+                <div className="p-5 w-full md:w-[50%] flex justify-between gap-5">
                     <div className='grow'>
                         <p className='text-richblack-100 mt-3'>Subject</p>
                         {
@@ -104,7 +104,7 @@ const Footer = () => {
             </div>
 
             <div className="foot text-richblack-400 border-t border-richblack-500">
-                <div className="flex justify-between items-center py-10">
+                <div className="flex justify-between flex-col md:flex-row items-center py-10">
                     <div className='flex text-center'>
                         <p className='border-r px-3 border-richblack-600'>Privacy Policy</p>
                         <p className='border-r px-3 border-richblack-600'>Cookie Policy</p>
