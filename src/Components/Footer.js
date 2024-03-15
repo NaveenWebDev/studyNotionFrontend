@@ -111,7 +111,7 @@ const Footer = () => {
                         <p className='border-r px-3 border-richblack-600'>Tearm</p>
                     </div>
                     <div>
-                        <p>Made with <FaHeart className='inline-block text-pink-200' /> NaveenSharma <MdCopyright className='inline-block text-2xl' /> {date.getFullYear()} StudyNotion </p>
+                        <p className='text-center'>Made with <FaHeart className='inline-block text-pink-200' /> NaveenSharma <MdCopyright className='inline-block text-2xl' /> {date.getFullYear()} StudyNotion </p>
                     </div>
                 </div>
             </div>
