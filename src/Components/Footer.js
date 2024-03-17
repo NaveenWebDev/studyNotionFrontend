@@ -108,7 +108,7 @@ const Footer = () => {
                     <div className='flex text-center'>
                         <p className='border-r px-3 border-richblack-600'>Privacy Policy</p>
                         <p className='border-r px-3 border-richblack-600'>Cookie Policy</p>
-                        <p className='border-r px-3 border-richblack-600'>Tearm</p>
+                        <p className='border-r px-3 border-richblack-600'>Terms</p>
                     </div>
                     <div>
                         <p className='text-center'>Made with <FaHeart className='inline-block text-pink-200' /> NaveenSharma <MdCopyright className='inline-block text-2xl' /> {date.getFullYear()} StudyNotion </p>

@@ -22,9 +22,6 @@ const Home = () => {
 
   return (
     <>
-        <nav className=' sticky z-10 bg-richblack-600 p-3 font-inter'>
-            this is my nav bar man
-        </nav>
 
         {/* =====================================mainsection==================================== */}
 
